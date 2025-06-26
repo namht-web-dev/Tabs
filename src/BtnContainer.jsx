@@ -6,7 +6,7 @@ const BtnContainer = ({ jobs, currentJob, setCurrentJob }) => {
         <button
           key={job.id}
           type="button"
-          className="btn"
+          className="btn job-btn"
           onClick={() => setCurrentJob(index)}
         >
           {job.company}
