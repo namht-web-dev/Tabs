@@ -254,6 +254,38 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 
+.section-center{
+  margin: 5rem auto;
+  width: 85vw;
+  max-width: var(--max-width);
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1rem;
+  margin: 2rem;
+}
+
+
+.job-title, .job-company, .job-dates{
+  margin: 1rem;
+  margin-left: 3rem;
+}
+
+.job-company{
+  background-color: var(--grey-500);
+  padding: 0.375rem 0.5rem;
+  border-radius: var(--borderRadius);
+  font-weight: bold;
+  color: var(--white);
+}
+
+.job-dates{
+  color: var(--grey-500);
+}
+
 .duties{
   display: grid;
   grid-template-columns: auto 1fr;
@@ -263,4 +295,10 @@ ul {
 .duties-icon{
   margin: 1rem;
   color: var(--primary-500);
+}
+
+.duties-text{
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  letter-spacing: var(--letterSpacing);
 }
